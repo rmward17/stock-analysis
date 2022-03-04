@@ -62,8 +62,29 @@ Here you can see that we filled up our array with the ticker abbreviations and a
 This code did all f the work for us and stored everythign into it's arrays and essentially created lists of the data for each ticker by connecting them via index. We were also able to do formatting in VBA as well so it is easier to look at the results. 
 
 ## Results
+Below are the results from our code for 2017 and 2018:
 
+![2017 stocks](https://github.com/rmward17/stock-analysis/blob/main/Resources/2017%20stocks%20results.png)
+
+![2018 stocks](https://github.com/rmward17/stock-analysis/blob/main/Resources/2018%20stocks%20results.png)
+
+Not only is the table easy to read, we can clearly see that ENPH and RUN are the only ones that had positive returns in both years so it may be good to invest in those two stocks. 
+
+While running the different codes, we were able to capture the run times of the codes. Let's compare the original 2017 code and the refactored 2017 code. 
+
+The original run time was:
+
+![OG_2017_Run_Time](https://github.com/rmward17/stock-analysis/blob/main/Resources/OG_2017_Run_Time.png)
+
+The refactored time:
+
+![Refactored 2017](https://github.com/rmward17/stock-analysis/blob/main/Resources/2017_Run_Time_Msg.png)
+
+The refactored code ran much faster. The refactored code is cleaner and clearer than our original code. Since it is data driven and utilized input boxes, it also minimizes the amount of code we need to use. Now the code is reusable for any year you my want to run an analysis on!
 
 ## Summary
-1. What are advantages or disadvantages of refactoring code
-2. 2. How do these pros and cons apply to refactoring the original VBA script
+Some additional advantages to refactoring code include reduced complexity and it is easy to scale. It makes things run faster and saves time and sometimes money depending on what the code is for. Refactoring code can be tough for very specific problems or data structures that you could encounter. 
+
+Our code for example was easy to refactor and use for our analysis. However, it would need more work if we were to expand the ticker list or the columns with in the data changes. You can always refactor code so it can be tough to know when to stop and let the code be. 
+
+Luckily, we were able to run our anlaysis smoothly and quickly so that Steve's parents can make informed choices with their investments. They can add more years to the work book if they want more insight on how the stocks perform. I can't wait to see how their portfolio grows!
